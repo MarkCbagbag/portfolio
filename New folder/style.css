@@ -1,6 +1,21 @@
-#Navbar, #hero {
-    background-color: #283747;
+#Navbar {
+    background-color: #333;
 }
+
+/* Hero section styling */
+#hero {
+    background-color: #555;
+}
+
+/* Work section styling */
 #Work {
-    background-color: #ECF0F1;
+    background-color: #b9b4b4;
+    padding-top: 2%;
+}
+
+/* Certificate section styling */
+#certificate {
+    text-align: center;
+    padding-top: 2%;
+    background-color: #333;
 }
