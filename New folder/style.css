@@ -1,4 +1,24 @@
- * {
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+ 
+}
+
+.flex-item {
+  margin: auto;
+}
+
+/* to center flex-items */
+.flex-item {
+   margin: auto;
+}
+#cta
+{
+  background-color: #b9b4b4;
+}
+
+* {
     scroll-behavior: smooth;
 }
 #nav{
@@ -13,6 +33,9 @@
 }
 #n-color:hover{
   color: aqua;
+}
+#n-color1:hover{
+  color: rgb(0, 0, 0);
 }
 /* Hero section styling */
 #home {
@@ -72,9 +95,8 @@
 #Service {
     background-color: #b9b4b4;
 }
-#footer { background-color: #b9b4b4;
-    padding-top: 10%;
-
+#footer { 
+  background-color: #b9b4b4;
 }
 
 nav ul li a.active,
